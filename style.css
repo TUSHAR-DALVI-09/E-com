@@ -195,3 +195,79 @@ div .nav-bar {
     height: 50px;
     margin-top: 50px;
 }
+
+/* MOBILE SCREEN */
+
+@media screen and (max-width: 780px){
+    .header{
+        padding: 20px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+    }
+
+    .nav-bar{
+        height: 50px;
+        display: flex;
+        padding: 5px;
+        /* background-color: white; */
+        background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 153, 255));
+        text-align: center;
+        justify-content: space-between;
+        font-size: 6px;
+    }
+
+    div .nav-bar {
+        position: static;
+    }
+
+    div #logo{
+        width: 30px;
+    }
+
+    div #logo-1{
+        width: 40px;
+    }
+
+    /* SHIOPE SECTION */
+    .shope-section{
+        display: grid;
+        /* flex-wrap: wrap; */
+        /* justify-content: space-evenly; */
+        background-color: #e2e7e6; 
+    }
+    
+    .box {
+        height: 450px;
+        /**border: 2px solid black;**/
+        width: 330px;
+        background-color: white;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .box-img{
+        height: 290px;
+        background-size: cover;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .box img{
+        width: 70%;
+    }
+
+    .box-content h3{
+        font-size: 12px;
+        font-family: Bahnschrift;
+    }
+    
+    .box-content h4{
+        font-size: 19px;
+        color: red;
+    }
+    
+
+}
